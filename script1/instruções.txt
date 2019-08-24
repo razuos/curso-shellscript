@@ -1,0 +1,24 @@
+Precisamos criar uma solução para gerar relatórios do sistema.
+
+Dois scripts precisam ser criados:
+
+gerar-relatorio.sh
+excluir-relatorios.sh
+
+gerar-relatório.sh:
+
+Precisamos gerar um relatório para o usuário,o nome do arquivo do relatório precisa ser especificado pelo usuário.
+O relatório precisa ser criado dentro de um diretório chamado "relatorios"
+
+O relatório precisa ter os seguintes itens, em ordem:
+A data do relatório
+O conteúdo do arquivo /proc/version
+O conteúdo do arquivo /etc/shells
+O retorno do programa "uptime"
+A quantidade de horas desde 1 de janeiro de 1970 ( pode ser obtido usando a saída do comando "date +%s" dividida por 3600)
+
+excluir-relatorio.sh:
+
+Precisamos perguntar ao usuário o nome do relatório a ser excluído.
+Em seguida, precisamos criar um diretório chamado "backup", para copiar o relatório a ser excluído.
+Depois de feito o backup, podemos excluir o relatŕio.
