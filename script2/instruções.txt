@@ -1,0 +1,11 @@
+Precisamos comparar a entrada do usuário e notificá-lo.
+
+Um script precisa ser criado:
+
+comparar.sh:
+
+Ler a entrada do usuário.
+Checar se a entrada está vazia, se sim, notificar e sair do programa utilizando o comando "exit".
+Se a entrada do usuário for menor que 10, notificar o usuário.
+Se a entrada do usuário for maior que 10, notificar o usuário.
+Se a entrada do usuário for maior que 11 e menor que 20, notificar o usuário.
