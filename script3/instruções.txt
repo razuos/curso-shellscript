@@ -1,0 +1,23 @@
+Precisamos criar uma solução para gerar melhores relatórios do sistema.
+
+Um script será criado:
+
+relatorio.sh:
+
+Criar uma função que retorna um relatório do sistema:
+  Utilizando o comando "date" para a data,
+  Utilizando o comando "hostname" para o nome da máquina,
+  Utilizando o comando "uptime" para o tempo em que a máquina está ligada,
+  Utilizando o conteúdo do arquivo /proc/version para a versão do sistema,
+  Utilizando o conteúdo do arquivo /etc/shells para a versão do sistema,
+
+Em seguida, pegar a entrada do usuário e checar se está vazia.
+
+Criar um arquivo nomeado pela entrada do usuário contendo
+o redirecionamento da execuçao da função criada anteriormente.
+
+Mudar as permissções desse arquivo de forma que somente
+o usuário possa ler e escrever.
+DICA: https://chmod-calculator.com
+
+Mostrar as permissões desse arquivo com o comando "ls -la".
