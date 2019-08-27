@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#Criamos a função na parte mais superior do script para que ela possa ser utilizada
+#em qualquer parte. Se ela fosse declarada no final do arquivo, não poderia ser acessada.
+
 gerar_relatorio() {
   #Podemos redirecionar a saída do comando "uptime".
   echo "Data: $(date)"
