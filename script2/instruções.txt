@@ -1,6 +1,7 @@
 Precisamos comparar a entrada do usuário e notificá-lo.
+Também precisamos comparar uma lista de números.
 
-Um script precisa ser criado:
+Dois scripts precisam ser criados:
 
 comparar.sh:
 
@@ -9,3 +10,10 @@ Checar se a entrada está vazia, se sim, notificar e sair do programa utilizando
 Se a entrada do usuário for menor que 10, notificar o usuário.
 Se a entrada do usuário for maior que 10, notificar o usuário.
 Se a entrada do usuário for maior que 11 e menor que 20, notificar o usuário.
+
+comparar_lista.sh:
+
+Utilizar um loop 'for' para rodar uma lista de comparações 15 vezes.
+Se o iterador for menor que 10, notificar o usuário.
+Se o iterador for maior que 10, notificar o usuário.
+Se o iterador for maior que 11 e menor que 20, notificar o usuário.
